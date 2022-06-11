@@ -50,12 +50,12 @@ Otherwise, if you're using __ArduinoIDE__ then all you need to do is to copy the
 
 ### Components
 This project uses the following components:
-- __ESP32s__ as a microcontroller
-- __nrf24l01+ transceiver module__ as a radio-frequency transceiver module
+- X1 __ESP32s__ as a microcontroller
+- X1 __nrf24l01+ transceiver module__ as a radio-frequency transceiver module
 - X2 __1K Ohm Linear Potentiometer__
-- X2 
-- 
-
+- X2 __KY-023 Joystick Module__ as 2-axis analog input
+- X1 __LCD display 16x2 WITH i2c Interface__ (or any other display)
+- X1 __2-Way Toggle Switch__ as an ON \ OFF switch
 
 ### Prerequisites
 
@@ -111,17 +111,6 @@ If you have a suggestion that would make this better, please fork the repo and c
 Distributed under the MIT License. See `LICENSE.txt` for more information.
 
 <p align="right">(<a href="#top">back to top</a>)</p>
-
-<!-- ACKNOWLEDGMENTS -->
-## Acknowledgments
-
-* []()
-* []()
-* []()
-
-<p align="right">(<a href="#top">back to top</a>)</p>
-
-
 
 <!-- MARKDOWN LINKS & IMAGES -->
 [transmitter-picture]: images/transmitter.jpg
