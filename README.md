@@ -26,9 +26,10 @@
 
 ![Transmitter Picture][transmitter-picture]
 
-A generic transmitter based on ESP32 \ Arduino boards using nRF24 transceiver module. This project aims to provide an extremely simple to use and build
+A generic transmitter based on ESP32 \ Arduino boards using nRF24 transceiver module. This project aims to provide an extremely simple-to-use-and-build
 transmitter for remotelly controlling RC vehicles: be it a drone, an RC airplane or even an RC car.
-The components used in this project are the cheapest available. They are super easy to find anywhere.
+The components used in this project are the __cheapest__ available. They are also __super easy to find anywhere_.
+This project proves that you can build a somewhat decent remote controller with the cheapest available components.
 
 This remote controller was mainly used to control __drones__ and __RC airplanes__ thus you'll hear the terms: `Throttle`, `Pitch`, `Roll` and `Yaw` a lot!
 You don't need to be familiar with these terms. These are just 4 values that this remote controller sends for controlling a drone \ RC airplane.
@@ -52,6 +53,8 @@ This project uses the following components:
 - X1 __LCD display 16x2 WITH i2c Interface__ (or any other display)
 - X1 __2-Way Toggle Switch__ as an ON \ OFF switch
 
+The folder ```schematics``` contain ESP32 and Arduino circuit schematics.
+ 
 ### Prerequisites
 
 All essential libraries are provided in the ```lib``` folder. Thus, thus there is no need to look for any prerequisites, everything
@@ -82,7 +85,6 @@ As the above picture shows, there are __two joysticks__ thus a total of 4 contro
 - __LCD Display__: Displays information. See source code for more details.
 
 <p align="right">(<a href="#top">back to top</a>)</p>
-
 
 <!-- CONTRIBUTING -->
 ## Contributing
